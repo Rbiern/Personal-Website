@@ -1,0 +1,35 @@
+<div id="header-container">
+     <!-- Header -->
+  <header>
+    <nav class="banner">
+      <!-- Hamburger Menu -->
+      <div class="ham-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    
+      <!-- Text Buttons -->
+      <ul class="text-button">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="background.html">Background</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <!-- Sidebar (Preferences) -->
+  <div class="sidebar" id="sidebar">
+    <h3>Preferences</h3>
+    <hr class="sidebar-divider">
+    <div class="toggle-container">
+      <span>Light/Night Mode</span>
+      <div class="toggle" data-toggle="theme" onclick="toggleSwitch(this)"></div>
+    </div>
+    <div class="toggle-container">
+      <span>Cookies On/Off</span>
+      <div class="toggle" onclick="toggleSwitch(this)"></div>
+    </div>
+  </div>
+</div>
