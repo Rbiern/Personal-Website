@@ -1,0 +1,76 @@
+/* Resume Section */
+.resume-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.resume-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.resume-subtitle {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+/* Education Column & Experience Column */
+.resume-columns {
+  display: flex;
+  gap: 2rem;
+}
+.education-column,
+.experience-column {
+  flex: 1;
+}
+
+
+/* Timeline & Content Formatting */
+.timeline {
+  position: relative;
+  margin-left: 2rem;
+  padding-left: 2rem;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #003366;
+  z-index: 0;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.timeline-content {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.timeline-content h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.timeline-badge {
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.blue-italic {
+  color: #0072B1;
+  font-style: italic;
+}
+.education-column h2,
+.experience-column h2 {
+  position: relative;
+  left: calc(2rem + 10px);
+  top: -15px;
+}

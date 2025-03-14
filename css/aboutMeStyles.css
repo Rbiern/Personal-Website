@@ -1,0 +1,58 @@
+.main-container {
+  width: 810px; /* left page 400 + spine 10 + right page 400 */
+  margin: 50px auto 80px auto;
+  text-align: left;
+}
+
+
+/* Book Container */
+.book {
+  position: relative;
+  width: 810px;
+  height: 500px;
+  margin: 0 auto;
+  perspective: 1200px;
+}
+
+
+/* Left Page, Spine, Right Page, Page Text Styling */
+.left-page,
+.spine,
+.right-page {
+  position: absolute;
+  top: 0;
+  height: 500px;
+}
+.left-page {
+  left: 0;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  transform-origin: right center;
+  transform: rotateY(5deg);
+  z-index: 2;
+}
+.spine {
+  left: 400px;
+  width: 10px;
+  background-color: #d2b48c;
+}
+.right-page {
+  left: 410px;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  transform-origin: left center;
+  transform: rotateY(-5deg);
+  z-index: 2;
+}  
+/* Basic text styling inside pages */
+.left-page p,
+.right-page p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}

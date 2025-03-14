@@ -1,0 +1,160 @@
+.main-container {
+  max-width: 1200px;
+  margin: 2rem auto 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+
+
+/* Profile Snippet */
+.snippet {
+  width: 832px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.profile-snippet {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+.pfp-container {
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.pfp-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-text p {
+  margin: 0.25rem 0;
+}
+.highlighted {
+  color: #0072B1;
+}
+
+
+/* About Me Content Container */
+.about {
+  width: 832px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.content-box.about-me {
+  width: 500px;
+  height: 450px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 16px;
+  color: #333;
+}
+
+
+/* Main Picture + Blue Box Placeholder */
+.photo-box {
+  width: 500px;
+  height: 450px;
+  background-color: #3A86FF;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  border: 2px solid rgba(34,34,34,0.13);
+  position: relative;
+  overflow: hidden;
+}
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo-box.loaded {
+  border: none;
+}
+
+
+/* My Expertise Content Container */
+.expertise {
+  width: 832px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.content-box.expertise-text {
+  width: 1200px;
+  height: 194px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 1rem;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+}
+
+
+/* Outside School Content Container */
+.outside {
+  width: 832px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.content-box.outside-school {
+  width: 350px;
+  height: 194px;
+  border: 1px solid #ccc;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 1rem;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+}
+
+
+/* Buttons */
+.buttons {
+  width: 832px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+}
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3c8c8;
+  color: #000;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+.cta-button .btn-icon {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+  filter: invert(0%);
+}
+.cta-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.cta-button:hover .btn-icon {
+  filter: invert(100%);
+}
