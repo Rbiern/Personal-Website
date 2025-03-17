@@ -55,7 +55,7 @@ function toggleSwitch(element) {
 function applyPreferences() {
   const savedTheme = localStorage.getItem("theme");
   const themeToggle = document.querySelector('[data-toggle="theme"]');
-  
+
   if (savedTheme === "dark") {
     document.body.classList.add("dark-mode");
     if (themeToggle && !themeToggle.classList.contains("active")) {
@@ -89,5 +89,9 @@ function applyPreferences() {
 
 // Makes Sure Preferences are Applied
 document.addEventListener("DOMContentLoaded", () => {
+  // Dark Mode by Default
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "dark");
+  }
   applyPreferences();
 });

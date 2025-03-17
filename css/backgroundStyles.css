@@ -40,8 +40,20 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: #003366;
+  background-color: #000000;
   z-index: 0;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  z-index: 2;
 }
 .timeline-item {
   position: relative;
@@ -116,6 +128,10 @@
 /* Timeline Styling */
 .dark-mode .timeline::before {
   background-color: #E3B448;
+}
+.dark-mode .timeline-item::before {
+  background: #000000;
+  border: 2px solid #E3B448;
 }
 .dark-mode .timeline-badge {
   background-color: #F9A825;

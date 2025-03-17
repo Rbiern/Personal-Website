@@ -32,7 +32,10 @@ function updateProjectContent() {
     
     const imagePlaceholder = document.querySelector('.image-placeholder');
     if (imagePlaceholder) {
-      imagePlaceholder.innerHTML = `<img src="${project.image}" alt="${project.title}" style="width:100%; height:100%; object-fit: cover">`;
+      // imagePlaceholder.innerHTML = `<img src="${project.image}" alt="${project.title}" style="width:100%; height:100%; object-fit: cover">`;
+      // imagePlaceholder.innerHTML = `<img src="${project.image}" alt="${project.title}" style="width:100%; height:100%; object-fit: contain;">`;
+      imagePlaceholder.innerHTML = `<img src="${project.image}" alt="${project.title}" style="width:100%; height:100%; object-fit: fill;">`;
+
     }
 
     const pageIndicator = document.getElementById('pageIndicator');
