@@ -201,22 +201,68 @@ footer {
 }
 
 
-/* Dark Mode */
+/* Dark Mode Styles for Main Styles */
 .dark-mode {
-  background: #121212;
-  color: #f1f1f1;
+  background: #1A1A1A !important;
+  color: #E0E0E0;
 }
+
+/* Header */
 .dark-mode header {
-  background-color: #1e1e1e;
-  border-bottom-color: #333;
+  background-color: #1A1A1A;
+  border-bottom: 1px solid #E3B448;
 }
 .dark-mode .text-button a {
-  color: #f1f1f1;
+  color: #E0E0E0;
 }
+.dark-mode .text-button a:hover {
+  color: #F9A825;
+}
+
+/* Hamburger Menu */
+.dark-mode .ham-menu span {
+  background-color: #E3B448;
+}
+.dark-mode .ham-menu:hover span {
+  background-color: #F9A825;
+}
+.dark-mode .ham-menu.active span {
+  background-color: #F9A825;
+}
+
+/* Sidebar Preferences, Text, Buttons */
 .dark-mode .sidebar {
-  background-color: #1e1e1e;
-  border-color: #f1f1f1;
+  background-color: #1A1A1A;
+  border-color: #E3B448;
+  color: #FFFFFF;
 }
+.dark-mode .sidebar-divider {
+  background-color: #E3B448;
+}
+.dark-mode .toggle-container {
+  color: #FFFFFF;
+}
+.dark-mode .toggle {
+  background: #2D2D2D;
+}
+.dark-mode .toggle::before {
+  background: #E3B448;
+}
+.dark-mode .toggle.active {
+  background-color: #3A3A3A;
+}
+.dark-mode .toggle.active::before {
+  background: #E3B448;
+}
+
+/* Footer */
 .dark-mode .footer-line {
-  background-color: #f1f1f1;
+  background-color: #E3B448;
+}
+.dark-mode .footer-content {
+  color: #B0B0B0;
+}
+.dark-mode .footer-left img[src*="github"],
+.dark-mode .footer-left img[src*="email"] {
+  filter: invert(12%) sepia(0%) saturate(0%) hue-rotate(160deg) brightness(75%) contrast(90%);
 }

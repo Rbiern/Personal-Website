@@ -297,3 +297,110 @@
   margin-top: 20px;
   color: #333;
 }
+
+
+/* Dark Mode Styles for Projects Page */
+.dark-mode .tabs-bg {
+  background-color: #2D222F;
+  border-color: #4B2138;
+}
+
+.dark-mode .tab-button {
+  color: #FFFFFF;
+}
+
+.dark-mode .tab-button.active {
+  background-color: #6D3C52;
+  color: #FFFFFF;;
+}
+
+/* Content Container */
+.dark-mode .dark-blue-bg {
+  background-color: #1B0C1A;
+}
+
+.dark-mode .blue-head {
+  background-color: #4B2138;
+}
+
+.dark-mode .grey-head {
+  background-color: #6D3C52;
+}
+
+.dark-mode .light-header {
+  background-color: #765D67;
+}
+
+/* Main Content Box */
+.dark-mode .content-box {
+  background-color: #2D222F;
+}
+
+/* Light Gray Box */
+.dark-mode .light-gray-box {
+  background-color: #1B0C1A;
+  border-color: #4B2138;
+}
+
+/* White Box */
+.dark-mode .white-box {
+  background-color: #2D222F;
+  color: #FFFFFF;
+  border-color: #6D3C52;
+}
+
+/* Smaller Gradient Box */
+.dark-mode .gradient-text-box1 {
+  background: linear-gradient(
+    to right,
+    #4B2138 0%,
+    #6D3C52 15%,
+    #6D3C52 85%,
+    #4B2138 100%
+  );
+  color: #FFFFFF;
+}
+
+/* Light Blue Box */
+.dark-mode .light-blue-box {
+  background-color: #4B2138;
+}
+
+/* Gray Box */
+.dark-mode .gray-box {
+  background-color: #2D222F;
+}
+
+/* Image Placeholder */
+.dark-mode .image-placeholder {
+  background-color: #6D3C52;
+}
+
+/* Gray Box 2 */
+.dark-mode .gray-box-2 {
+  background-color: #1B0C1A;
+}
+
+/* White Box 2 */
+.dark-mode .white-box-2 {
+  background-color: #2D222F;
+  border-color: #6D3C52;
+  color: #FFFFFF;
+}
+
+/* Text Box 2 */
+.dark-mode .gradient-text-box2 {
+  background: linear-gradient(
+    to right,
+    #4B2138 0%,
+    #6D3C52 15%,
+    #6D3C52 85%,
+    #4B2138 100%
+  );
+  color: #FFFFFF;
+}
+
+/* Page Number */
+.dark-mode .page-indicator {
+  color: #FFFFFF;
+}

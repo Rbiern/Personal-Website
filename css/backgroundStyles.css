@@ -74,3 +74,50 @@
   left: calc(2rem + 10px);
   top: -15px;
 }
+
+
+/* Dark Mode Styles for Background Page */
+.resume-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.dark-mode .resume-section {
+  background-color: #0A0A0A;
+  color: #E0E0E0;
+  background: radial-gradient(circle, #1A1A1A 30%, #0A0A0A 100%);
+}
+.resume-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.dark-mode .resume-title {
+  color: #E0E0E0;
+}
+.dark-mode .resume-subtitle.objective {
+  color: #FFFFFF;
+}
+.resume-subtitle {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+.dark-mode .resume-subtitle {
+  color: #E0E0E0;
+}
+
+/* Education & Experience Columns */
+.dark-mode .education-column, 
+.dark-mode .experience-column {
+  color: #E0E0E0;
+}
+
+/* Timeline Styling */
+.dark-mode .timeline::before {
+  background-color: #E3B448;
+}
+.dark-mode .timeline-badge {
+  background-color: #F9A825;
+  color: #0A0A0A;
+}
