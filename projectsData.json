@@ -1,30 +1,80 @@
 {
   "group": [
     {
+      "title1": "Spell Checker Application",
+      "title2": "Technology",
+      "bodyTitle": "<h3>Description</h3>",
+      "body1": "A standalone spell-checking application capable of opening user text files and providing spelling corrections according to standard English. The application enables users to make text edits directly within the program and offers multiple correction suggestions. Users can then choose to save or discard their changes. Additionally, the application supports opening new text files once the user has completed working with the current file.<br><br><h3>My Contributions</h3>I implemented the error detection algorithm to identify and correct spelling mistakes based on English language standards. I also developed algorithms capable of correcting more than 10,000 words in under 2 seconds.<br><br><h3>Challenges</h3>This was my first large-scale project within a team of five presented several challenges. We overcame these by following Agile methodologies commonly used in software engineering. We collaborated closely to review requirements and documented our tasks clearly in Confluence. We created prototypes and UML diagrams to define the software architecture. We then implemented the design using Java and achieving success.",
+      "body2": "• Java<br> • Java Swing GUI<br> • Bitbucket (Version Control)<br> • Figma (Design & Prototyping)<br>• UML Diagrams",
+      "image": "images/spell.png"
     },
     {
+      "title1": "Fire Fighter Game",
+      "title2": "Technology",
+      "bodyTitle": "<h3>Description</h3>",
+      "body1": "The project, Fire Fighter, is a fun, retro-inspired game. As the title suggests, the theme revolves around fighting fire with water. The player takes on the role of a water droplet battling an advancing army of fiery flames. Armed with a water cannon and ice shields, you must fend off the incoming waves of fire enemies.<br><br><h3>My Contributions</h3> I led a team in developing a computer game using C++ and the SFML framework. As the team leader, I managed communication among team members to ensure alignment on project goals and tasks. One aspect of communication was setting up and organizing Jira tickets to track our progress. This approach ensured that everyone knew who was working on what and which tasks needed to be completed.<br><br><h3>Challenges</h3>We encountered a bug where enemy speed increased dramatically at lower screen resolutions. I used IDE breakpoints and found that enemy parameters were set as constants instead of dynamically adjusting with screen resolution. This issue was resolved by implementing dynamic parameter adjustments based on screen size.",
+      "body2": "• C++<br> • SFML Framework<br> • Agile methodologies<br> • Git (Version Control)<br>• UML Diagrams",
+      "image": "images/game.png"
     },
     {
+      "title1": "Social Meida App Redesign",
+      "title2": "Technology",
+      "bodyTitle": "<h3>Goal</h3>",
+      "body1": "Our team is proposing a redesign of the social media platform Instagram. Instagram is a social media application that allows users to send and share messages, images, videos, and voice recordings.<br><br>In our effort, we aim to design and implement an app prototype that addresses and improves upon Instagram's human-computer interaction flaws.<br><br>(Ongoing project…)",
+      "body2": "Ongoing project… ",
+      "image": "images/hand.png"
     }
   ],
     "personal": [
       {
+        "title1": "Windows HTTPS Server",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "Developed a Windows HTTPS server using the C programming language, implementing HTTPS/1.1 through raw TCP sockets and the Windows OS API. The server supports REST API to delivering requested HTML files to clients over a local network. TLS encryption is established to ensure secure communication between the server and clients. Additionally, the server can handle multiple client requests simultaneously through multithreading. This project allowed me to apply my knowledge of computer networking and security through socket programming.",
+        "body2": "  • C Programming Language<br>  • Windows OS Socket API<br>  • HTTP/1.1 Protocol <br>  • RESTful API Architecture",
+        "image": "images/server.png"
       },
       {
+        "title1": "Personal Website",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "A personal website showcasing my web development skills, designed and built using HTML, CSS, and JavaScript. Developed using Visual Studio Code, the website offers a simple and easy to use UI for interactivity. I used Figma to prototype and refine the website's user interface, allowing me to plan design elements before development. Throughout the project, I employed Git for version control, tracking changes and managing my development workflow.",
+        "body2": "  • HTML, CSS, JavaScript<br>  • Visual Studio Code IDE<br>  • Figma (Design & Prototyping)<br>  • Git (Version Control)",
+        "image": "images/website.png"
       }
     ],
     "assignments": [
       {
-
+        "title1": "Link's House",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "The assignment involved rendering Link's house from Zelda using the OpenGL graphics API. The users can navigate through the house by manipulating the camera view around the 3D structure.<br><br><h3>Learning Outcome</h3>The goal of the assignment is to get comfortable working with triangular meshes and manipulating camera views within world space. Additionally, I had to read and process PLY and BMP (3D modeling and rendering data) files based on their specific formats. Through this assignment, I learned how to use OpenGL to load and render triangle mesh data and textures from these files. I also implemented shading by coding in GLSL, the shader programming language for OpenGL. Furthermore, I learned how to control the camera perspective using vector calculations based on arrow-key inputs.",
+        "body2": "  • C++<br>  • Libraries:<pre>    GLEW, GLM, GLSL (Shaders)</pre> •  OpenGL <pre>    (3D Graphics Rendering)</pre>",
+        "image": "images/linkshouse.png"
       },
       {
-
+        "title1": "Multiplayer Snake Game",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "The objective of this assignment is to develop a server-based snake game where the server manages the game logic and the client interfaces with the server to interact with the game. The game in focus is the classic Snake game. The server should handle multiple clients/snakes simultaneously. Each client will have their own snake, enabling a multiplayer environment where multiple snakes share the field. While playing, Clients can send a public message to the server to be broadcasted to all clients. Communication between the server and clients is secured using RSA encryption.<br><br><h3>Learning Outcome</h3>Through this assignment, I gained experience implementing client-server architectures, managing concurrent connections, and developing multiplayer functionality. I applied my knowledge of threading to support multiple clients simultaneously connecting to the server, as well as socket programming for message broadcasting. Additionally, I learned to use RSA encryption algorithms for secure communications.",
+        "body2": "  • Python<br>  • Threading (Multithreading)<br>  • RSA Encryption<br>  • TCP Sockets<br>  • Client-Server Architecture",
+        "image": "images/snake.png"
       },
       {
-
+        "title1": "Pyramid Map Exploration",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "The assignment places you in the role of renowned Archeology Professor J. who discovered the mystical pyramid of X, which is believed to hide a number of priceless treasures. The insides of pyramid X is divided into interconnected hexagonal chambers. Many of the chambers have lethal traps in them, so it is very important that the professor only walks through chambers where enough light enters so he can walk through them safely.<br><br>Types of chambers in the pyramid:<br><pre>• Sealed chambers  • Lighted chambers  • Dim chambers<br>• Dark chambers    • Entrance chamber  • Treasure chambers</pre> <br><h3>Learning Outcome</h3>I applied various data structures to help me solve this complex problem, including my own implementations of a doubly linked list and a stack. Additionally, I developed a greedy pathfinding algorithm to navigate through the hexagonal chambers to locate all artifacts. By combining these data structures and algorithms, I found safe paths from the entrance chamber to each treasure chamber, avoiding sealed or dark rooms. I also gained valuable coding experience in Java.",
+        "body2": "  • Java<br>  • Eclipse IDE",
+        "image": "images/mapfinder.png"
       },
       {
-
+        "title1": "Kerberos Authentication",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "The assignment requires Python 3.7+ and the PyCryptodome library to implement the Kerberos authentication protocol and AES (with the EAX modern mode of operation) to encrypt and decrypt the messages used by the Kerberos protocol. All user credentials (usernames and passwords) are stored in a JSON file. Upon entering the correct username and password, the Kerberos protocol authenticates the user and securely transmits a text file from the file server to the user.<br><br><h3>Learning Outcome</h3>Through this assignment, I gained practical knowledge about the Kerberos protocol by implementing it in Python. From a cybersecurity perspective, I learned that Kerberos is an authentication service that provides a centralized authentication system whose function is to authenticate users through a three-way authentication system. I had also gained a deeper understanding of related authentication techniques including Single Sign-On (SSO) and Federated Identity based access.",
+        "body2": "  • Python<br>  • PyCryptodome Library<br>  • AES Encryption<br>  • SHA-256 (Hash Algorithm)<br>  • JSON Files",
+        "image": "images/cybersecurity.png"
       }
     ]
   }
