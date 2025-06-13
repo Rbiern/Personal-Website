@@ -1,6 +1,6 @@
 /* Scale Down the Body Content to 80% of original size */
 .scale-wrapper {
-  transform: scale(0.9);
+  transform: scale(0.85);
   transform-origin: top;
 }
 
@@ -169,6 +169,11 @@
 .circle4 {
   top: 20px;
   left: 362px;
+  background-color: #fff;
+}
+.circle5 {
+  top: 20px;
+  left: 290px;
   background-color: #fff;
 }
 /* Light Gray Box (536×532) */

@@ -19,10 +19,10 @@
     {
       "title1": "Social Meida App Redesign",
       "title2": "Technology",
-      "bodyTitle": "<h3>Goal</h3>",
-      "body1": "Our team is proposing a redesign of the social media platform Instagram. Instagram is a social media application that allows users to send and share messages, images, videos, and voice recordings.<br><br>In our effort, we aim to design and implement an app prototype that addresses and improves upon Instagram's human-computer interaction flaws.<br><br>(Ongoing project…)",
-      "body2": "Ongoing project… ",
-      "image": "images/hand.png"
+      "bodyTitle": "<h3>Description</h3>",
+      "body1": "Our team redesigned Instagram's social media platform to improve its human-computer interaction (HCI) aspects. Instagram enables users to send and share messages, images, videos, and voice recordings.<br><br>Through our redesign, we developed a functional prototype that addresses key usability flaws in Instagram’s interface by applying user-centered design principles and HCI best practices.<br><br><h3>My Contributions</h3>I reimagined the user experience by creating new UI/UX designs and prototypes using Figma. I researched and identified existing design flaws, then applied multiple designed principles to address these issues and improve the overall user experience.<br><br><h3>Challenges</h3>Our project targeted Instagram for redesign, which proved to be a massive undertaking. Since the app is big and complex, with our limited time, we concentrated our efforts on core features that could most benefit from improved UI elements.",
+      "body2": "• C++<br> • QT6<br> • Git (Version Control)<br> • Figma (Design & Prototyping)<br>• User Flow Diagrams",
+      "image": "images/msg.png"
     }
   ],
     "personal": [
@@ -41,9 +41,25 @@
         "body1": "A personal website showcasing my web development skills, designed and built using HTML, CSS, and JavaScript. Developed using Visual Studio Code, the website offers a simple and easy to use UI for interactivity. I used Figma to prototype and refine the website's user interface, allowing me to plan design elements before development. Throughout the project, I employed Git for version control, tracking changes and managing my development workflow.",
         "body2": "  • HTML, CSS, JavaScript<br>  • Visual Studio Code IDE<br>  • Figma (Design & Prototyping)<br>  • Git (Version Control)",
         "image": "images/website.png"
+      },
+      {
+        "title1": "Tower Defense Game",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "My take on the tower defense genre. I build an epic gaming experience that challenges players to defend against waves of incoming enemies strategically.",
+        "body2": "  • C++<br>  • SFML Framework<br>  • Figma (Design & Prototyping)<br>  • Git (Version Control)",
+        "image": "images/TD.png"
       }
     ],
     "assignments": [
+      {
+        "title1": "Bezier Spline Tool",
+        "title2": "Technology",
+        "bodyTitle": "<h3>Description</h3>",
+        "body1": "The assignment involves building a sort of limited pen tool, which creates and manipulates a cubic Bezier spline. The user adds points, or nodes, by clicking on the window. The program connects these nodes together as a spline and renders the spline. The user can move around existing nodes and their control points to modify the spline.<br><br><h3>Learning Outcome</h3>Gained experience in developing a responsive graphical interface capable of handling and responding to user mouse inputs. Learned to generate and manipulate cubic Bézier splines using OpenGL and GLFW. Implemented interactive features enabling users to dynamically add, reposition, and adjust nodes and control points. Applied rendering techniques such as anti-aliasing, line smoothing, and stippling.",
+        "body2": "  • C++<br>  • GLEW Library<br> •  OpenGL <pre>    (3D Graphics Rendering)</pre>",
+        "image": "images/spinetool.png"
+      },
       {
         "title1": "Link's House",
         "title2": "Technology",

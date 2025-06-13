@@ -65,6 +65,7 @@ function updateBanner() {
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "none";
+      document.querySelector('.circle5').style.display = "none";
       document.querySelector('.circle1').style.backgroundColor = "#FFFFFF";
       document.querySelector('.circle2').style.backgroundColor = "#000000";
       document.querySelector('.circle3').style.backgroundColor = "#000000";
@@ -74,6 +75,7 @@ function updateBanner() {
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "none";
+      document.querySelector('.circle5').style.display = "none";
       document.querySelector('.circle1').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle2').style.backgroundColor = "#FFFFFF";
       document.querySelector('.circle3').style.backgroundColor = "#000000";
@@ -83,6 +85,7 @@ function updateBanner() {
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "none";
+      document.querySelector('.circle5').style.display = "none";
       document.querySelector('.circle1').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle2').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle3').style.backgroundColor = "#FFFFFF";
@@ -90,20 +93,34 @@ function updateBanner() {
   }
   // Personal Projects
   else if (currentCategory === 'personal') {
-    if (currentIndex === 0) {
-      banner.style.width = "566px";
-      document.querySelector('.circle1').style.display = "none";
+      if (currentIndex === 0) {
+      banner.style.width = "490px";
+      document.querySelector('.circle1').style.display = "block";
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "none";
-      document.querySelector('.circle2').style.backgroundColor = "#FFFFFF";
+      document.querySelector('.circle5').style.display = "none";
+      document.querySelector('.circle1').style.backgroundColor = "#FFFFFF";
+      document.querySelector('.circle2').style.backgroundColor = "#000000";
       document.querySelector('.circle3').style.backgroundColor = "#000000";
     } else if (currentIndex === 1) {
-      banner.style.width = "648px";
-      document.querySelector('.circle1').style.display = "none";
+      banner.style.width = "566px";
+      document.querySelector('.circle1').style.display = "block";
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "none";
+      document.querySelector('.circle5').style.display = "none";
+      document.querySelector('.circle1').style.backgroundColor = "#9D9D9D";
+      document.querySelector('.circle2').style.backgroundColor = "#FFFFFF";
+      document.querySelector('.circle3').style.backgroundColor = "#000000";
+    } else if (currentIndex === 2) {
+      banner.style.width = "648px";
+      document.querySelector('.circle1').style.display = "block";
+      document.querySelector('.circle2').style.display = "block";
+      document.querySelector('.circle3').style.display = "block";
+      document.querySelector('.circle4').style.display = "none";
+      document.querySelector('.circle5').style.display = "none";
+      document.querySelector('.circle1').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle2').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle3').style.backgroundColor = "#FFFFFF";
     }
@@ -111,45 +128,65 @@ function updateBanner() {
   // School Assignments
   else if (currentCategory === 'assignments') {
     if (currentIndex === 0) {
+      banner.style.width = "342px";
+      document.querySelector('.circle1').style.display = "block";
+      document.querySelector('.circle2').style.display = "block";
+      document.querySelector('.circle3').style.display = "block";
+      document.querySelector('.circle4').style.display = "block";
+      document.querySelector('.circle5').style.display = "block";
+      document.querySelector('.circle1').style.backgroundColor = "#000000";
+      document.querySelector('.circle2').style.backgroundColor = "#000000";
+      document.querySelector('.circle3').style.backgroundColor = "#000000";
+      document.querySelector('.circle4').style.backgroundColor = "#000000";
+      document.querySelector('.circle5').style.backgroundColor = "#FFFFFF";
+    } else if (currentIndex === 1) {
       banner.style.width = "416px";
       document.querySelector('.circle1').style.display = "block";
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "block";
+      document.querySelector('.circle5').style.display = "block";
       document.querySelector('.circle1').style.backgroundColor = "#000000";
       document.querySelector('.circle2').style.backgroundColor = "#000000";
       document.querySelector('.circle3').style.backgroundColor = "#000000";
       document.querySelector('.circle4').style.backgroundColor = "#FFFFFF";
-    } else if (currentIndex === 1) {
+      document.querySelector('.circle5').style.backgroundColor = "#9D9D9D";
+    } else if (currentIndex === 2) {
       banner.style.width = "490px";
       document.querySelector('.circle1').style.display = "block";
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "block";
+      document.querySelector('.circle5').style.display = "block";
       document.querySelector('.circle1').style.backgroundColor = "#FFFFFF";
       document.querySelector('.circle2').style.backgroundColor = "#000000";
       document.querySelector('.circle3').style.backgroundColor = "#000000";
       document.querySelector('.circle4').style.backgroundColor = "#9D9D9D";
-    } else if (currentIndex === 2) {
+      document.querySelector('.circle5').style.backgroundColor = "#9D9D9D";
+    } else if (currentIndex === 3) {
       banner.style.width = "566px";
       document.querySelector('.circle1').style.display = "block";
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "block";
+      document.querySelector('.circle5').style.display = "block";
       document.querySelector('.circle1').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle2').style.backgroundColor = "#FFFFFF";
       document.querySelector('.circle3').style.backgroundColor = "#000000";
       document.querySelector('.circle4').style.backgroundColor = "#9D9D9D";
-    } else if (currentIndex === 3) {
+      document.querySelector('.circle5').style.backgroundColor = "#9D9D9D";
+    } else if (currentIndex === 4) {
       banner.style.width = "648px";
       document.querySelector('.circle1').style.display = "block";
       document.querySelector('.circle2').style.display = "block";
       document.querySelector('.circle3').style.display = "block";
       document.querySelector('.circle4').style.display = "block";
+      document.querySelector('.circle5').style.display = "block";
       document.querySelector('.circle1').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle2').style.backgroundColor = "#9D9D9D";
       document.querySelector('.circle3').style.backgroundColor = "#FFFFFF";
       document.querySelector('.circle4').style.backgroundColor = "#9D9D9D";
+      document.querySelector('.circle5').style.backgroundColor = "#9D9D9D";
     }
   }
 }
